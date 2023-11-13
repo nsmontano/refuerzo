@@ -1,0 +1,116 @@
+.colored-section{
+    background-color: #FFF8DC;
+   /* background-image: url(../images/fondo.jpg);*/
+    text-align: center;
+    overflow: hidden;
+    padding-top:40px ;
+    color: white;
+    height: 320px;                                                 
+}
+.Whitesection{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.atras-iphone{
+    margin-top:31px ;
+}
+
+.phoneimage{
+    width: 175px;
+    transform: rotate(29deg) ;
+    margin-top:30px ;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+#navbarNav{
+    font-size: 20px;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+.btnMargin{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.testimonios{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #C8E6C9;
+    /*overflow: hidden;*/
+}
+.img-Cicle{
+    /*border-radius*/
+    width: 90px;
+    height: 90PX ;
+    
+}
+
+/*pie de pagina*/
+.pie-de-pagina{
+    width: 100%;
+    background-color:#F3D9DC;
+}
+.pie-de-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-de-pagina .grupo1 .caja figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina .grupo1 .caja figure img{
+    width: 250px;
+
+}
+.pie-de-pagina .grupo1 .caja h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-de-pagina .grupo1 .caja p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+.pie-de-pagina .grupo1 .red-social i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-de-pagina .grupo1 .red-social i:hover{
+    color: rgb(44, 147, 147);
+}
+.pie-de-pagina .grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-de-pagina .grupo2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-de-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+} 
